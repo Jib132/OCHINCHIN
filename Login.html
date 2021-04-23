@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+<style>
+    div.a {
+        text-align: center;
+    }
+
+</style>
+
+
+<div class="a">
+    <br/> <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+    <input type="password" id="password" name='password'>
+    <button onclick="Login()">Login</button>
+
+    <span id="foo"></span>
+
+
+    <script>
+        function Login() {
+            let password = document.getElementById("password").value;
+
+
+            document.getElementById("foo").textContent = $password;
+        if(password==="EscuchayLee"){
+            window.location.href="front page.html";
+        }
+        else{
+           window.close();
+        }
+        }
+    </script>
+
+
+
+</div>
+
+</body>
+</html>
